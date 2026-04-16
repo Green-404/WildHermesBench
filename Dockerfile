@@ -1,5 +1,5 @@
 # 1. 使用上一步加载的镜像作为基础
-FROM 15432d16a8da
+FROM wildclawbench-ubuntu_v1.2.tar
 
 # 2. 移除原有的 OpenClaw 相关文件
 # 注意：请根据原镜像中OpenClaw的实际安装路径修改
